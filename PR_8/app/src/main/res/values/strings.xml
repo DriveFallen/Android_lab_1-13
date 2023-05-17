@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PR_8</string>
+
+    <string-array name="ar_1">
+        <item>Str_1</item>
+        <item>Str_2</item>
+        <item>Str_3</item>
+        <item>Str_4</item>
+        <item>Str_5</item>
+    </string-array>
+
+    <string-array name="ar_2">
+        <item>Str_6</item>
+        <item>Str_7</item>
+        <item>Str_8</item>
+        <item>Str_9</item>
+        <item>Str_10</item>
+    </string-array>
+</resources>

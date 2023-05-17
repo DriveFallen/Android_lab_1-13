@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Linear_1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:paddingTop="20dp">
+
+    <EditText
+        android:id="@+id/EditText_1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        style="@style/EditText">
+    </EditText>
+    <EditText
+        android:id="@+id/EditText_2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        style="@style/EditText">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/Linear_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/Button_1"
+            style="@style/Button"
+            android:text="@string/Button_1"
+            android:onClick="plus">
+
+        </Button>
+        <Button
+            android:id="@+id/Button_2"
+            style="@style/Button"
+            android:text="@string/Button_2"
+            android:onClick="minus">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/Button_3"
+            style="@style/Button"
+            android:text="@string/Button_3"
+            android:onClick="star">
+
+        </Button>
+        <Button
+            android:id="@+id/Button_4"
+            style="@style/Button"
+            android:text="@string/Button_4"
+            android:onClick="slash">
+
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/TextView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/TextView"
+        android:textSize="26dp"
+        android:background="@color/yellow"
+        android:textColor="@color/black">
+
+    </TextView>
+
+</LinearLayout>

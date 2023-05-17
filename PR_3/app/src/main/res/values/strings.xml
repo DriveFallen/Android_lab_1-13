@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PR_3</string>
+    <string name="tv_1">TextView_1</string>
+    <string name="tv_2">TextView_2</string>
+    <string name="bt_1">red-green</string>
+    <string name="bt_2">yellow-blue</string>
+    <string name="bt_3">black-white</string>
+    <string name="bt_4">red</string>
+    <string name="bt_5">blue</string>
+    <string name="bt_6">black</string>
+</resources>

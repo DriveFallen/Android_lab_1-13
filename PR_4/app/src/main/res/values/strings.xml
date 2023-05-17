@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PR_4.Kobtsev</string>
+    <string name="EditText_1">Print first num:</string>
+    <string name="EditText_2">Print second num:</string>
+    <string name="Button_1">+</string>
+    <string name="Button_2">-</string>
+    <string name="Button_3">*</string>
+    <string name="Button_4">/</string>
+    <string name="TextView">Result...</string>
+</resources>

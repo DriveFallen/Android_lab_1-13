@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="30dp"
+        android:background="@color/teal_200"
+        android:textSize="30dp"
+        android:hint="Пустое текстовое поле">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="30dp"
+        android:background="@color/teal_200"
+        android:textSize="30dp"
+        android:hint="Введите текст">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="30dp"
+        android:textSize="30dp"
+        android:text="OK"
+        android:onClick="onOK">
+
+    </Button>
+</LinearLayout>

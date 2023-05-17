@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ListView
+        android:id="@+id/list_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@color/pink"
+        android:layout_margin="5dp">
+    </ListView>
+    <EditText
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@color/blue">
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:id="@+id/bt_1"
+            style="@style/Bt"
+            android:text="Add"
+            android:onClick="Add">
+
+        </Button>
+        <Button
+            android:id="@+id/bt_2"
+            style="@style/Bt"
+            android:text="Edit"
+            android:textSize="16dp"
+            android:onClick="Edit">
+
+        </Button>
+        <Button
+            android:id="@+id/bt_3"
+            style="@style/Bt"
+            android:text="Del"
+            android:textSize="16dp"
+            android:onClick="Del">
+
+        </Button>
+        <Button
+            android:id="@+id/bt_4"
+            style="@style/Bt"
+            android:text="Clear"
+            android:textSize="16dp"
+            android:onClick="Clear">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mLL"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/tv"
+        android:id="@+id/tv_1"
+        android:text="@string/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        style="@style/tv"
+        android:id="@+id/tv_2"
+        android:text="@string/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/bt_1"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/green"
+        style="@style/btn_123"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/bt_1"
+        android:onClick="onRed"/>
+
+    <Button
+        android:id="@+id/bt_2"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/blue"
+        style="@style/btn_123"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/bt_2"
+        android:onClick="onYellow" />
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        style="@style/btn_123"
+        android:id="@+id/bt_3"
+        android:text="@string/bt_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="onBlack" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            style="@style/btn_456"
+            android:id="@+id/bt_4"
+            android:text="@string/bt_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="backRed" />
+
+        <Button
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            style="@style/btn_456"
+            android:id="@+id/bt_5"
+            android:text="@string/bt_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="backBlue" />
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            style="@style/btn_456"
+            android:id="@+id/bt_6"
+            android:text="@string/bt_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="backBlack" />
+    </LinearLayout>
+</LinearLayout>

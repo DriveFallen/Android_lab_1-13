@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PR_11</string>
+
+    <string name="preferences">pref_name</string>
+    <string name="key">key_name</string>
+
+    <string-array name="arrNameColor">
+        <item>Красный</item>
+        <item>Оранжевый</item>
+        <item>Жёлтый</item>
+        <item>Зелёный</item>
+        <item>Голубой</item>
+        <item>Синий</item>
+        <item>Фиолетовый</item>
+    </string-array>
+
+    <array name="arrColorNumber">
+        <item>#F40000</item>
+        <item>#FF3D00</item>
+        <item>#FFD400</item>
+        <item>#44FF00</item>
+        <item>#00FFA7</item>
+        <item>#0018F4</item>
+        <item>#B500DD</item>
+    </array>
+</resources>

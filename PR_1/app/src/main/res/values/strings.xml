@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PR_1</string>
+    <string name="Btn_1">Btn_1</string>
+    <string name="Btn_2">Btn_2</string>
+    <string name="Btn_3">Btn_3</string>
+    <string name="Btn_4">Btn_4</string>
+    <string name="AfterClick">***</string>
+</resources>

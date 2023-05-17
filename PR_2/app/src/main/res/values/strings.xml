@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PR_2</string>
+    <string name="tv_1">TextView_1</string>
+    <string name="tv_2">TextView_2</string>
+    <string name="add">Add</string>
+    <string name="copy">Copy</string>
+</resources>

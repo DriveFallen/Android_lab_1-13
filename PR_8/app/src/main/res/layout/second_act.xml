@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pr_8.Second_act"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:background="@color/purple_500"
+        android:orientation="horizontal"
+        android:layout_margin="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+        <ListView
+            android:id="@+id/List_1"
+            style="@style/List">
+
+        </ListView>
+        <ListView
+            android:id="@+id/List_2"
+            style="@style/List">
+
+        </ListView>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Et_1"
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/teal_700"
+        android:hint="Edit text..."
+        android:textSize="30sp">
+
+    </EditText>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="7">
+
+        <Button
+            android:id="@+id/Bt_1"
+            style="@style/Button"
+            android:text="Add list 1"
+            android:onClick="Add_1">
+
+        </Button>
+        <Button
+            android:id="@+id/Bt_2"
+            style="@style/Button"
+            android:text="Add list 2"
+            android:onClick="Add_2">
+
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Bt_back"
+        android:layout_margin="10sp"
+        android:layout_width="150sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Back"
+        android:textSize="26sp"
+        android:onClick="back">
+
+    </Button>
+</LinearLayout>

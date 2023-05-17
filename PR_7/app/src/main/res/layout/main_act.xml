@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/Bt_open"
+        android:layout_width="300sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150sp"
+        android:text="Open second activivty"
+        android:textSize="30sp"
+        android:onClick="Open">
+
+    </Button>
+</LinearLayout>

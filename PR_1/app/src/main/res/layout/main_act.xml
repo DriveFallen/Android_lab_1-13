@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/ActBack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:text="@string/Btn_1"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/Btn_2"
+        android:text="@string/Btn_2"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:layout_margin="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Btn_3"
+        android:text="@string/Btn_3"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:layout_margin="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Btn_4"
+        android:text="@string/Btn_4"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:layout_margin="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

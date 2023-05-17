@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preferences"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:layout_margin="10sp"
+        android:background="@color/white">
+
+    </TextView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_margin="20sp">
+        <LinearLayout
+            style="@style/Layout">
+
+            <EditText
+                android:id="@+id/Key_1"
+                style="@style/Et_1"
+                android:hint="Key_1">
+
+            </EditText>
+            <EditText
+                android:id="@+id/Value_1"
+                style="@style/Et_2"
+                android:hint="Value_1">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Layout">
+
+            <EditText
+                android:id="@+id/Key_2"
+                style="@style/Et_1"
+                android:hint="Key_2">
+
+            </EditText>
+            <EditText
+                android:id="@+id/Value_2"
+                style="@style/Et_2"
+                android:hint="Value_2">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Layout">
+
+            <EditText
+                android:id="@+id/Key_3"
+                style="@style/Et_1"
+                android:hint="Key_3">
+
+            </EditText>
+            <EditText
+                android:id="@+id/Value_3"
+                style="@style/Et_2"
+                android:hint="Value_3"
+                android:inputType="number">
+
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
